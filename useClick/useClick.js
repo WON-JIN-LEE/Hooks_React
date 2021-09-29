@@ -1,6 +1,5 @@
 import React, {useEffect, useRef} from 'react';
 
-
 const useClick = (onClick) => {
     const element = useRef();
     
@@ -17,14 +16,3 @@ const useClick = (onClick) => {
 
     return element;
 }
-const App = () => {
-    const sayHello =() => console.log("hello");
-    const title = useClick(sayHello);
-    return (
-        <div className="App">
-            <h1 ref={title}>H1</h1>
-        </div>
-    );
-};
-
-export default App;
