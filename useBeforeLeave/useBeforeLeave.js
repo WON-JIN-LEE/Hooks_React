@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 
-const useBeforeLeave = (onBefore) => {
+export const useBeforeLeave = (onBefore) => {
 
     const handles = (event) => {
         const { clientY } = event;
@@ -15,14 +15,3 @@ const useBeforeLeave = (onBefore) => {
         return;
     }
 };
-const App = () => {
-    const begForLife = () => console.log("Plz dont leave");
-    useBeforeLeave(begForLife);
-    return (
-        <div className="App">
-            <h1>HELLO</h1>
-        </div>
-    );
-};
-
-export default App;
