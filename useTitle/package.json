@@ -1,0 +1,30 @@
+{
+  "name": "@won-hooks/use-title",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WON-JIN-LEE/Hooks_React.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "hooks",
+    "title",
+    "hooks"
+  ],
+  "author": "WonJinLee <vopgh0409@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WON-JIN-LEE/Hooks_React/issues"
+  },
+  "homepage": "https://github.com/WON-JIN-LEE/Hooks_React#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
